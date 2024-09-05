@@ -69,12 +69,12 @@ data, metadata = load_nhanes_data()
 
 # Create fictitious patient data
 fictitious_patients = {
+    "James Wilson, 62": {"Age": 62, "BMI": 28.4, "SystolicBloodPressure": 145, "Glucose": 6.7},
     "Emily Johnson, 35": {"Age": 35, "BMI": 24.8, "SystolicBloodPressure": 118, "Glucose": 5.2},
     "Michael Chen, 42": {"Age": 42, "BMI": 27.5, "SystolicBloodPressure": 125, "Glucose": 5.6},
     "Sophia Rodriguez, 28": {"Age": 28, "BMI": 22.1, "SystolicBloodPressure": 110, "Glucose": 4.9},
     "William Taylor, 55": {"Age": 55, "BMI": 31.2, "SystolicBloodPressure": 140, "Glucose": 6.3},
     "Olivia Brown, 48": {"Age": 48, "BMI": 29.7, "SystolicBloodPressure": 132, "Glucose": 5.9},
-    "James Wilson, 62": {"Age": 62, "BMI": 28.4, "SystolicBloodPressure": 145, "Glucose": 6.7},
     "Ava Martinez, 39": {"Age": 39, "BMI": 26.3, "SystolicBloodPressure": 122, "Glucose": 5.4},
     "Ethan Davis, 51": {"Age": 51, "BMI": 33.5, "SystolicBloodPressure": 138, "Glucose": 6.1},
     "Emma Thompson, 45": {"Age": 45, "BMI": 25.9, "SystolicBloodPressure": 128, "Glucose": 5.7},
